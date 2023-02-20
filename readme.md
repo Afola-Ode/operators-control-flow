@@ -123,35 +123,10 @@
   `let x = 16`; // x is 10000 in binary
   `x >>= 2;` // x is now 100 in binary, which is 4 in decimal
   `let y = 20;` // y is 10100 in binary
-  `y >>= 3;` // y is now 10 in binary, which is 2 in`
-
-#### 3.
-
-`let classGroup = "Arts";` // Change this to Bolatito's actual class group
-
-`if (classGroup === "Science") {
-  console.log("Your science subjects are: Physics, Chemistry, Biology, Technical Drawing");
-} else if (classGroup === "Social Science") {
-  console.log("Your social science subjects are: Accounting, Commerce, Marketing, Geography");
-} else if (classGroup === "Arts") {
-  console.log("Your arts subjects are: Government, Economics, Literature, History");
-} else {
-  console.log("Invalid class group. Your general subjects are: English, Mathematics");
-}`
+  `y >>= 3;`
 
 #### 4.
 
 1
 8
 15
-
-#### 5.
-
-function findnearestPwr(num){
-let pwr;
-for(let i =1; i<num; i\*\*2){
-pwr = i;
-}
-}
-
-console.log(`The number ${pwr} is the power of 2 nearest to ${num}.`)
